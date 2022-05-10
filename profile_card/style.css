@@ -12,7 +12,9 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg,#fbda61, #ff5acd);
+    /*background: linear-gradient(45deg,#fbda61, #ff5acd);*/
+    background: rgb(131,58,180);
+    background: linear-gradient(to bottom left, rgba(131,58,180,1) 0%, rgba(69,252,179,1) 100%);
 }
 .card
 {
@@ -22,7 +24,7 @@ body
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5ms;
+    transition: 0.5s;
 }
 .card:hover
 {
